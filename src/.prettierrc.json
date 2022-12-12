@@ -9,12 +9,16 @@
     "arrowParens": "avoid",
     "overrides": [
         {
-          "files": ".eslintrc.json",
-          "options": { "parser": "json" }
+            "files": ".eslintrc.json",
+            "options": { "parser": "json" }
         },
         {
             "files": "*.scss",
             "options": { "parser": "scss" }
+        },
+        {
+            "files": "*.html",
+            "options": { "parser": "html" }
         }
     ]
 }

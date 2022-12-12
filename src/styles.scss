@@ -1,0 +1,36 @@
+.nav-pills .nav-link {
+    background-color: var(--bs-gray-300);
+    color: var(--bs-dark);
+
+    &:hover {
+        background-color: var(--bs-gray-200);
+    }
+
+    &.active {
+        --bs-nav-pills-link-active-bg: var(--bs-gray-200);
+        color: var(--bs-dark);
+    }
+}
+
+.nav {
+    --bs-nav-link-color: var(--bs-dark);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-nav-start {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.btn-nav {
+    border-radius: 0 !important;
+}
+
+.btn-nav-end {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}

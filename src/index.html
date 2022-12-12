@@ -12,8 +12,38 @@
         />
         <link rel="stylesheet" href="./styles.scss" />
     </head>
-    <body>
-        <h1>Simple Tabs</h1>
+    <body class="bg-light">
+        <header class="pt-5 text-center">
+            <h1>Simple Tabs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, temporibus?</p>
+        </header>
+        <main class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-5 mb-5 mb-lg-0">
+                        <img src="./images/about.jpg" alt="About" class="rounded" />
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="about">
+                            <div class="nav nav-pills nav-fill">
+                                <button
+                                    class="tab-btn nav-link btn-nav-start active"
+                                    data-id="history"
+                                >
+                                    History
+                                </button>
+                                <button class="tab-btn nav-link btn-nav" data-id="vision">
+                                    Vision
+                                </button>
+                                <button class="tab-btn nav-link btn-nav-end" data-id="goals">
+                                    Goals
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <script src="./app.js" type="module"></script>
     </body>
 </html>
